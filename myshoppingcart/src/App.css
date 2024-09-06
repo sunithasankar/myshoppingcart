@@ -4,6 +4,68 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
-body{
- border: 2px solid red;
+.header-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-image:linear-gradient(rgb(52, 52, 255),rgb(0, 128, 255));
+  color: white;
+}
+.left{
+  flex: 1;
+}
+.center{
+  flex:4;
+}
+.right{
+  flex: 1;
+}
+.serch{
+  flex: 2;
+}
+.title{
+  font-size: 40px ;
+}
+.center ul li{
+  list-style: none;
+  display: inline-flex;
+  margin: 0 30px;
+  font-size: 20px;
+}
+.center ul li:hover{
+  color:#fff839 ;
+}
+
+.right{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 10px;
+}
+.bannerBox{
+  margin: 10px 0;
+}
+
+.bannerBox img{
+  width:100%;
+}
+.search input{
+  width:250px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+.menImages{
+  display: flex;
+  overflow-x: scroll;
+  margin: 20px 0;
+}
+.menImages h3{
+  text-align: center;
+}
+.menImages img{
+  width:250px;
+  height: 300px;
+  padding: 10px;
 }

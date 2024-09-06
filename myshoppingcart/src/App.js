@@ -1,12 +1,10 @@
+import React from 'react';
 import './App.css';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
+import Mainpage from './Pages/Mainpage';
 function App() {
   return (
     <>
-  <h1>This Is React Project</h1> 
-  <Header/> 
-  <Footer/>
+  <Mainpage/>
   </>
   );
 }
